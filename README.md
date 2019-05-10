@@ -27,7 +27,7 @@ to set the ros mster url and hostname.
 
 
 In order to run the map generation, run launch_pointcloud_mapping.sh.
-{sp} +
+{nbsp} +
 {sp} +
 
 **Misc.**
