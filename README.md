@@ -27,8 +27,8 @@ to set the ros mster url and hostname.
 
 
 In order to run the map generation, run launch_pointcloud_mapping.sh.
-
-
+{sp} +
+{sp} +
 
 **Misc.**
  * The frame rate with the current setup is very low, with around 2-7 fps. This causes the robot, with just the 3d camera, to lose odomerty if it is turned too quickly with a densly populated surrounding environment. This can be fixed be using outside odometry, such as from wheel encoders or by using the odemetry provided by the Realsense T265 that is not currently on the robot but is provided in the bin with its materials.
