@@ -26,7 +26,8 @@ To move to robot manualy, run:
    * You will have to have the terminal with this program running selected in order to move the robot.
 
 
-In order to run the map generation, run launch_pointcloud_mapping.sh.
+* In order to run the map generation, run launch_pointcloud_mapping.sh.
+
 
 
 Misc.
