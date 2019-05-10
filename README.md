@@ -10,13 +10,13 @@ When running roscore on initial start up of the robot, execute the commands in f
 to set the ros mster url and hostname.
 
 
-Dependencies
+**Dependencies**
  * Rtabmap
  * realsense2_camera
  * roboteq_driver
 
 
-To move to robot manualy, run:
+**To move to robot manualy, run:**
  * rosrun automav listener
  * rosrun teleop_twist_keyboard teleop_twist_keyboad.py
   * Follow the instructions on scren for movement
