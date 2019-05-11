@@ -4,18 +4,18 @@ Spring 2019 IGVC Team code repository
 Working features of the provided code:
   * Manual Driving
   * Point Cloud and occupancy grid creation.
-
-
+<br/><br/>
+<br/><br/>
 When running roscore on initial start up of the robot, execute the commands in found in terminal_export.sh
 to set the ros mster url and hostname.
-
-
+<br/><br/>
+<br/><br/>
 **Dependencies**
  * Rtabmap
  * realsense2_camera
  * roboteq_driver
-
-
+<br/><br/>
+<br/><br/>
 **To move to robot manualy, run:**
  * rosrun automav listener
  * rosrun teleop_twist_keyboard teleop_twist_keyboad.py
@@ -24,9 +24,11 @@ to set the ros mster url and hostname.
    * The code currently does not use diff_drive controller, which woul allow for full 360 degree range of movement, if that is wanted, set up the movement with diff_drive.
    * In order to implement to speed control that is indicated on the teleop_twist_keyboard.py program, in automav listener, normalize the input from the x_linear and z_angular commands so that when an increase in velocity is selected the normalized values can be within a range of 0 and 1 which can then be multiplied by some predefined constant to give your motor command in the range on -1000 to 1000.
    * You will have to have the terminal with this program running selected in order to move the robot.
-
-
+<br/><br/>
+<br/><br/>
 In order to run the map generation, run launch_pointcloud_mapping.sh.
+<br/><br/>
+<br/><br/>
 <br/><br/>
 **Misc.**
  * The frame rate with the current setup is very low, with around 2-7 fps. This causes the robot, with just the 3d camera, to lose odomerty if it is turned too quickly with a densly populated surrounding environment. This can be fixed be using outside odometry, such as from wheel encoders or by using the odemetry provided by the Realsense T265 that is not currently on the robot but is provided in the bin with its materials.
