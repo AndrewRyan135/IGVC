@@ -1,6 +1,8 @@
 # IGVC
 Spring 2019 IGVC Team code repository
 
+**IGVC directory contanins all documents for our teams duration of the project.**
+
 Working features of the provided code:
   * Manual Driving
   * Point Cloud and occupancy grid creation.
