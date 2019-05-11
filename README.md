@@ -29,7 +29,6 @@ to set the ros mster url and hostname.
 In order to run the map generation, run launch_pointcloud_mapping.sh.
 <br/><br/>
 <br/><br/>
-<br/><br/>
 **Misc.**
  * The frame rate with the current setup is very low, with around 2-7 fps. This causes the robot, with just the 3d camera, to lose odomerty if it is turned too quickly with a densly populated surrounding environment. This can be fixed be using outside odometry, such as from wheel encoders or by using the odemetry provided by the Realsense T265 that is not currently on the robot but is provided in the bin with its materials.
  * The robot currently does not have the lidar installed, with is also another source on odometry and would be a faster mapping solution, but it is also used for the global planning when using move_base for the movement planning, this can be avoided by just using the rtabmap occupancy grid and having that using for the local planner and not having the global planner at all.
